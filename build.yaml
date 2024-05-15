@@ -1,0 +1,12 @@
+targets:
+  $default:
+    sources:
+      - input/**
+    builders:
+      swagger_dart_code_generator:
+        options:
+          input_folder: "input/"
+          output_folder: "output/"
+          override_to_string: true
+          input_urls:
+            - url: "https://catfact.ninja/docs/api-docs.json"
