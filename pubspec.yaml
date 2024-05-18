@@ -17,3 +17,4 @@ dependencies:
   chopper: ^6.1.4
   collection: ^1.18.0
   json_annotation: ^4.9.0
+  dio: ^5.4.3+1
